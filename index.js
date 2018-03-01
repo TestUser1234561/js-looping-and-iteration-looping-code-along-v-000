@@ -6,3 +6,11 @@ function printBadges(arr) {
 
   return arr
 }
+
+function tailsNeverFails() {
+  let heads = false
+  let i = 0
+  while (heads) {
+    
+  }
+}
