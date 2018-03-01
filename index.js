@@ -12,12 +12,8 @@ function maybeTrue () {
 }
 
 function tailsNeverFails() {
-  let tails = true
   let i = 0
-  while (tails) {
-    let test = Math.random()
-    console.log(test)
-    if(test >= 0.5) {  tails = false;  }
+  while (maybeTrue()) {
     i++;
   }
   return `'You got ${i} tails in a row!'`
