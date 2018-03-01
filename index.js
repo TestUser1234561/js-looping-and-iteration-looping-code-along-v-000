@@ -12,7 +12,7 @@ function tailsNeverFails() {
   let i = 0
   while (tails) {
     let test = Math.random()
-    puts test
+    console.log(test)
     if(test >= 0.5) {  tails = false;  }
     i++;
   }
